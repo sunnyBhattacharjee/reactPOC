@@ -1,0 +1,123 @@
+body{
+  overflow-x: hidden;
+}
+.nav-menu-highlight {
+  color: #639781;
+}
+.nav-badge{
+    transform: perspective(200px) rotateY(-20deg);
+    box-shadow: 5px -2px 0px -1px #afba1f;
+}
+.nav-border-top-layer{
+  border-top: 8px solid #018752;
+}
+.nav-border-bottom-layer{
+  border-top: 2px solid #c3d021;
+}
+.active {
+  border-bottom: 2px solid #c3d021;
+}
+.pure-bg-dark-yellow{
+  background-color: #afba1f !important;
+}
+.pure-white {
+  color: #fff !important;
+}
+.pure-bg-white {
+  background-color: #fff !important;
+}
+.pure-green {
+  color: #018752 !important;
+}
+.pure-bg-green {
+  background-color: #018752 !important;
+}
+.pure-bg-yellow {
+  background-color: #c3d021 !important;
+}
+.pure-yellow {
+  color: #c3d021 !important;
+}
+.pure-bg-grey {
+  background-color: #f4f4f4 !important;
+}
+.pure-grey {
+  color: #f4f4f4 !important;
+}
+.pure-red {
+  color: red;
+}
+#sageHeader {
+  box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.2);
+  color: #555;
+}
+.search-border-btn {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #555;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+thead tr td,
+tfoot tr td,
+p.w-75 {
+  font-size: 0.8rem;
+  color: #555;
+}
+.sage-footer{
+  border-top:10px solid #c3d021;
+  background-color: #018752 !important;
+  color: #000;
+  font-size:11px;
+}
+.sage-footer a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  .sage-footer a {
+    color: #000;
+  }
+.sage-footer-img{
+    width: 150px;
+    height: 70px;
+    margin-top: -26px;
+    box-shadow: 0px 8px 5px 0px rgba(0, 0, 0, 0.2)
+}
